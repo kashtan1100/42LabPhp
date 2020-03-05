@@ -2,28 +2,33 @@
 
 function replace_letter(string $str)
 {
-
     $strResult = '';
+    $counter =0;
     for ($i = 0; $i < strlen($str); $i++) {
         switch ($str[$i]) {
             case 'h' :
                 $replaced_char = '4';
+                $counter++;
                 break;
             case 'i' :
                 $replaced_char = '1';
+                $counter++;
                 break;
             case 'e' :
                 $replaced_char = '3';
+                $counter++;
                 break;
             case 'o' :
                 $replaced_char = '0';
+                $counter++;
                 break;
             default :
                 $replaced_char = $str[$i];
         }
-
         $strResult .= $replaced_char;
+
     }
+    $strResult.="<br> Число замен ".$counter;
     return $strResult;
 }
 
