@@ -26,8 +26,9 @@ function replace_letter(string $str)
                 $replaced_char = $str[$i];
         }
         $strResult .= $replaced_char;
-
     }
+    if($strResult == '42')
+        $strResult = 'WHAT DO YOU GET IF YOU MULTIPLY SIX BY NINE? <br> '.$strResult;
     $strResult.="<br> Число замен ".$counter;
     return $strResult;
 }
