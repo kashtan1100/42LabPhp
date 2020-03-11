@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2f18348-cc91-4c57-a9e3-f50b98cb61f3" name="Default Changelist" comment="" />
+    <list default="true" id="d2f18348-cc91-4c57-a9e3-f50b98cb61f3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/cod.php" beforeDir="false" afterPath="$PROJECT_DIR$/cod.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
@@ -27,6 +32,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
   <component name="ProjectId" id="1YrvJf6lGkiUsBdWhQ5MMMzs8lf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -60,6 +66,7 @@
       <workItem from="1583715312654" duration="359000" />
       <workItem from="1583715882063" duration="249000" />
       <workItem from="1583758833982" duration="9386000" />
+      <workItem from="1583949473312" duration="58000" />
     </task>
     <servers />
   </component>

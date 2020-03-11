@@ -42,8 +42,8 @@ if (isset($_REQUEST['strings'])) {
     $strings_array = lines_to_array();
     $strings_array = random_string($strings_array);
     $strings_array = second_word_sort($strings_array);
-    foreach ($strings_array as $kurit){
-        echo $kurit;
+    foreach ($strings_array as $write){
+        echo $write;
         echo '<br>';
     }
 } else {
