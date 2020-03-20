@@ -25,8 +25,8 @@ function second_word_sort($arrayString){
     for ($j = 0; $j < count($arrayString) - 1; $j++){
         for ($i = 0; $i < count($arrayString) - $j - 1; $i++){
             // если текущий элемент больше следующего
-            $str1 = explode(' ', $arrayString[$j])[1];
-            $str2 = explode(' ', $arrayString[$i])[1];
+            $str1 = explode(' ', $arrayString[$i])[1];
+            $str2 = explode(' ', $arrayString[$j])[1];
             if (strcmp($str1,$str2) == 1){
                 // меняем местами элементы
                 $tmp_var = $arrayString[$i + 1];
