@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8e336fa-6e0c-4f1f-ab1b-bdcc15bc9346" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d8e336fa-6e0c-4f1f-ab1b-bdcc15bc9346" name="Default Changelist" comment="changed index.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code.php" beforeDir="false" afterPath="$PROJECT_DIR$/code.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,11 +62,25 @@
       <workItem from="1584655489743" duration="8169000" />
       <workItem from="1585230682202" duration="110000" />
       <workItem from="1585230864926" duration="76000" />
+      <workItem from="1585230976107" duration="289000" />
+      <workItem from="1585231290092" duration="69000" />
     </task>
+    <task id="LOCAL-00001" summary="changed index.html">
+      <created>1585231187774</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585231187775</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changed index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed index.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="141" y="67" key="#CLI_Interpreters" timestamp="1584655891831">
@@ -88,10 +99,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-56" y="86" width="1089" height="669" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1584656020158" />
-    <state x="393" y="7" key="CommitChangelistDialog2" timestamp="1585231112796">
+    <state x="393" y="7" key="CommitChangelistDialog2" timestamp="1585231325460">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585231112796" />
+    <state x="393" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585231325460" />
+    <state x="147" y="65" key="DiffContextDialog" timestamp="1585231166672">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1585231166672" />
     <state x="597" y="227" key="NewPhpClassDialog" timestamp="1584655584051">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
