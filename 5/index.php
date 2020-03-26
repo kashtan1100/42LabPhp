@@ -54,5 +54,8 @@ function regex($password)
 if (isset($_REQUEST['password'])) {
     regex($_REQUEST['password']);
 } else {
-    include 'index.html';
+    echo '<form action="index.php">
+    Password: <input type="text" name="password" value="">
+    <input type="submit" value="Check">
+</form>';
 }
