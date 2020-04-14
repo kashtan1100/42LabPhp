@@ -39,12 +39,17 @@ function regex($password)
         echo 'Пароль содержит более 3 заглавных букв подряд</br>';
     }
 
-    $reg_three_lowercase_contract = "/\d{3,}/";
+    $reg_three_lowercase_contract = "/[a-z]{3,}/";
     if(preg_match($reg_three_lowercase_contract, $password)){
+        echo 'Пароль содержит более 3 прописных букв подряд</br>';
+    }
+
+    $reg_three_num_contract = "/[0-9]{3,}/";
+    if(preg_match($reg_three_num_contract, $password)){
         echo 'Пароль содержит более 3 цифр подряд</br>';
     }
 
-    $reg_three_spec_contract = "/\d{3,}/";
+    $reg_three_spec_contract = "/[%$#_*]{3,}/";
     if(preg_match($reg_three_spec_contract, $password)){
         echo 'пароль содержит более 3 спецсимволов подряд</br>';
     }
