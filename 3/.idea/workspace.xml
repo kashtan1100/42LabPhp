@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2f18348-cc91-4c57-a9e3-f50b98cb61f3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../4/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +79,7 @@
       <workItem from="1584698912324" duration="15000" />
       <workItem from="1585229160521" duration="359000" />
       <workItem from="1585229542686" duration="1114000" />
+      <workItem from="1586429499064" duration="242000" />
     </task>
     <task id="LOCAL-00001" summary="changed index.html">
       <created>1585230466677</created>
@@ -105,7 +106,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
