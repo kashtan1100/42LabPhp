@@ -35,19 +35,21 @@ function replace_letter(string $str)
                 yield $str[$i];
         }
     }
-    echo "<br>"."Изменений ".$counter;
+    yield "<br>"."Изменений ".$counter;
 }
 
 function replace_change($str){
+    $new_string = '';
     foreach (replace_letter($str) as $value){
-        echo $value;
+        $new_string .= $value;
     }
+    return $new_string;
 }
 
 if (isset($_REQUEST['string'])) {
     //$req = replace_letter($_REQUEST['string']);
     $req = $_REQUEST['string'];
-    replace_change($req);
+    echo replace_change($req);
 } else {
     echo '<form action="index.php">
     string : <input type="text" name="string" value="">
