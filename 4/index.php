@@ -13,11 +13,11 @@ function lines_to_array(){
     }
     $date = [];
     foreach ($string as $line){
-        $text = '';
+        $text = 0;
         for($i=0; $i<count($line)-2;$i++){
             $text .= $line[$i] . ' ';
         }
-        $text .= $line[count($line)-2];
+        $text += $line[count($line)-2];
 
         $weight['weight'] = $line[count($line)-1];
 
