@@ -1,10 +1,8 @@
 <?php
 
-include "exc/firstException.php";
-include "exc/secondException.php";
-include "exc/thirdException.php";
-include "exc/fourException.php";
-include "exc/fiveException.php";
+spl_autoload_register(function ($className) {
+    include $className . ".php";
+});
 
 class Methods{
     public function method_first(){

@@ -1,5 +1,8 @@
 <?php
-include "Methods.php";
+
+spl_autoload_register(function ($className) {
+    include $className . '.php';
+});
 
 $test = new Methods();
 
