@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Logger</title>
+</head>
+<body>
+<form action="index.php" method="post">
+    <label>
+        <input type="radio" name="logger" value="file"> Файл
+    </label>
+    <label>
+        <input type="radio" name="logger" value="browser"> Браузер
+    </label>
+
+    <br/>
+
+
+    <textarea name="text"></textarea>
+
+    <hr align="left"/>
+    <br/>
+    Название файла  <br>
+    <input type="text" name="file_name">
+    <br/>
+    <hr align="left"/>
+    <br/>
+    <label>
+        <input type="radio" name="date" value="date_only"> Только время <br>
+    </label>
+    <label>
+        <input type="radio" name="date" value="date_time"> Дата и время <br>
+    </label>
+    <label>
+        <input type="radio" name="date" value="date_off"> Выключено
+    </label>
+    <br/><br/>
+    <input type="submit">
+    <br/><br/>
+</form>
+</body>
+</html>
